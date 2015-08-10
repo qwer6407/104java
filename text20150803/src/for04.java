@@ -16,7 +16,6 @@ public class for04 {
 		for(b=1;b<=people;b=b+1){
 			sum1=sum1+scn.nextInt();
 		System.out.println("平均身高為"+sum1/a);
-		
 			}		
 		}
 	}
