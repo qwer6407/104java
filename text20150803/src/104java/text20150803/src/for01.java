@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class for04 {
+public class for01 {
 
 	/**
 	 * @param args
@@ -7,13 +7,13 @@ public class for04 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scn=new Scanner(System.in);
-		System.out.println("請先輸入班級人數");
-		int k=scn.nextInt();
-		System.out.println("請輸入個別的身高");
-		int people=scn.nextInt();
-
+		System.out.println("某數");
+		int sum=0;
+		int i=scn.nextInt();
+		for(i=13;i<=1399;i=i+1){
+		sum=sum+i;
+		System.out.println("sum="+sum);
 		}
-			}		
-		
-	
+	}
 
+}
