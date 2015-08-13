@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class while01 {
+public class while03 {
 
 	/**
 	 * @param args
@@ -7,16 +7,12 @@ public class while01 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scn=new Scanner(System.in);
-		int j=0;
-		int n=scn.nextInt();
-		while(j<n){
-			int k =0;
-			while(k<=j){
-				System.out.print("*");
-				k++;
-			}
-			System.out.println();
-			j++;
+		System.out.println("多久滿水位?");
+		int h;
+		h=20000;
+		double a;
+		a=1.15;
+		for(h=20000;h<1100000;h*1.15){//小數無法用
 		}
 	}
 

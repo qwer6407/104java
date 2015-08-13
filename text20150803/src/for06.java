@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class while01 {
+public class for06 {
 
 	/**
 	 * @param args
@@ -7,16 +7,16 @@ public class while01 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scn=new Scanner(System.in);
-		int j=0;
+		System.out.println("n:");
 		int n=scn.nextInt();
-		while(j<n){
-			int k =0;
-			while(k<=j){
-				System.out.print("*");
-				k++;
+		for(int i=1;i<=n;i++){
+			for(int j=0;j<n-i;j++){				
+				System.out.print("1");
 			}
-			System.out.println();
-			j++;
+			for(int j=0;j<(2*i)-1;j++){
+				System.out.print("*");
+			}
+			System.out.println();			
 		}
 	}
 
