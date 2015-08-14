@@ -12,12 +12,13 @@ public class while04 {
 		while(b%4!=0){
 			System.out.println("不為閏年");
 			b++;
+			if(b%4==0){
+				System.out.println("為閏年"+(b));			
 			}
-			while(b++%4==0){
-				System.out.println("為閏年");
-		}
-		}
-	}	
+			}
+			}
+			}
+	
 		 
 		
 			

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class text07 {
+public class text08 {
 
 	/**
 	 * @param args
@@ -7,15 +7,12 @@ public class text07 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scn=new Scanner(System.in);
-		System.out.println("輸入梯形上底");
-		float a=scn.nextFloat();
-		System.out.println("輸入梯形下底");
-		float b=scn.nextFloat();
-		System.out.println("輸入梯形高");
+		System.out.println("請輸入半徑");
+		System.out.println("請輸入圓周率");
+		float r=scn.nextFloat();
 		float c=scn.nextFloat();
-		float h;
-		h=(a+b)*c/2;
+		float h=scn.nextFloat();
+		h=(r*r*c);	
 		System.out.print("面積為"+h);
 	}
-
 }

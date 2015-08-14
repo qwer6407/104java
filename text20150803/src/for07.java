@@ -11,19 +11,22 @@ public class for07 {
 		for(int i=1;i<=4;i++)
 		{
 			for(int j=0;j<4-i;j++){
-				System.out.print("1");
+				System.out.print(" ");
 			}for(int k=0;k<(2*i)-1;k++){
 				System.out.print("*");
 			}
-			for(int a=1;a<=3;a++){
-				for(int b=0;b<a;b++){
-					System.out.print("2");
-			System.out.println();	
+			System.out.println();
+				}																		
+				for(int a=1;a<=3;a++){
+						for(int b=0;b<a;b++){
+						System.out.print(" ");
+						}for(int c=0;c<=4;c++){
+							System.out.print("*");
+						}
+			System.out.println();
+					}
 				}
 			}
-		}
-	}
-}
 	
 
 							

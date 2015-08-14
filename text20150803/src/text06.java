@@ -13,7 +13,7 @@ public class text06 {
 		float h=scn.nextFloat();
 		System.out.print("面積");
 		float a=b*h/2;
-		System.out.print("面積為"+a+"");
+		System.out.print("面積為"+a);
 		
 	}
 }
