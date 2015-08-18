@@ -8,7 +8,7 @@ public class for07 {
 		// TODO Auto-generated method stub
 		Scanner scn=new Scanner(System.in);
 		int n=scn.nextInt();
-		for(int i=1;i<=4;i++)
+		for(int i=0;i<=4;i++)
 		{
 			for(int j=0;j<4-i;j++){
 				System.out.print(" ");
@@ -19,8 +19,8 @@ public class for07 {
 				}																		
 				for(int a=1;a<=3;a++){
 						for(int b=0;b<a;b++){
-						System.out.print(" ");
-						}for(int c=0;c<=4;c++){
+						System.out.print("1");
+						}for(int c=0;c<4-a;c++){
 							System.out.print("*");
 						}
 			System.out.println();
