@@ -19,8 +19,8 @@ public class for07 {
 				}																		
 				for(int a=1;a<=3;a++){
 						for(int b=0;b<a;b++){
-						System.out.print("1");
-						}for(int c=0;c<4-a;c++){
+						System.out.print(" ");
+						}for(int c=0;c<7-2*a;c++){
 							System.out.print("*");
 						}
 			System.out.println();
