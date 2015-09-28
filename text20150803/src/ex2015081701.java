@@ -11,9 +11,9 @@ public class ex2015081701 {
 		for(int i=0;i<1;i++){
 			data[i]=rnd.nextInt(1000)+1;
 		System.out.print(data[i]);
-		int fuck;
-		fuck=add(data[i]);
-		System.out.print(fuck);
+		int o;
+		o=add(data[i]);
+		System.out.print(o);
 		public static int add(int j){
 		//System.out.print("»ù®æ¬°");
 			int x=1;
